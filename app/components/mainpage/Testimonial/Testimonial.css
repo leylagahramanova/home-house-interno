@@ -1,0 +1,81 @@
+.testims {
+
+    background-color: #F4F0EC;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 10rem;
+    margin-top: 10rem;
+    padding:3rem;
+  }
+  @media (max-width: 768px) {
+    .testims{
+    margin-left:0;
+    margin-right:0;
+    border-radius: 0rem;
+    }
+}
+  .testims h2 {
+    max-width: 547px;
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62.5px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+  }
+  
+  .testims2 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 3rem; /* Add margin between testimonials */
+  }
+  
+  .testim {margin:1rem;
+    min-width: 350px;
+    min-height: 339px;
+    padding:2rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   border-radius: 1rem; /* Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .human {
+    font-family: 'DM Serif Display';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .name h4 {
+    font-weight: bold;
+  }
+  
+  .comment p {
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    max-width: 296px;
+  }
+  .facts{
+    padding-left:1rem;
+  }
+  .thinks{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }

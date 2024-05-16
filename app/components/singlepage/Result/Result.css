@@ -1,0 +1,17 @@
+.result{
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:10rem;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.result-text{
+    max-width:518px;
+}
+
+@media (max-width: 700px) {
+    .result img {
+        height:20rem;
+    }
+}

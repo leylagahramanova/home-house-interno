@@ -1,0 +1,38 @@
+.error {
+
+    margin-left: 10%;
+
+    display: flex;
+    flex-direction: row;
+justify-content:space-between;
+  }
+  @media (max-width: 768px) {
+    .error {
+ 
+      margin-left: 10%;
+  
+      display: flex;
+      flex-direction:column;
+  
+    }
+  }
+  .error-text {
+    margin-top: 10rem;
+    max-width: 569px; /* Set max-width for better responsiveness */
+    gap: 23px;
+  }
+  .error-text p{
+    max-width:430px;
+    font-size:22px;
+  }
+  .error h1 {
+  text-align: left;
+    color: #CDA274;
+  }
+
+
+  .error-image img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  

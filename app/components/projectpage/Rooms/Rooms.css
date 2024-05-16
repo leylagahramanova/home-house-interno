@@ -1,0 +1,44 @@
+.interior{
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:10rem;
+}
+.room{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+.room-bg{
+    width: 70px;
+height: 70px;
+background: #F4F0EC;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.room-arrow {
+height:20px;
+width:20px;
+
+border: solid black;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 3px;
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+@media (max-width: 783px) {
+    .room {
+      grid-template-columns: 1fr; 
+    }
+}
+.project img{
+    max-width:585px;
+    width:100%;
+}
+.project:hover{
+    background-color:#CDA274;
+}

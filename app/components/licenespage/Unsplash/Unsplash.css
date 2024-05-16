@@ -1,0 +1,42 @@
+.unsplash{
+    margin-top:10rem;
+margin-left:8%;
+margin-right:8%;
+background: #F4F0EC;
+border-radius:5rem;
+padding:2rem;
+height: auto;
+
+}
+.unsplash p{
+max-width:906px;
+margin-top:2rem;
+}
+.unsplash-photo img{
+    padding:1rem;
+}
+.unsplash-photo{
+    position:ralative;
+    top:10rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.unsplash span{
+        font-family: Jost;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color:#CDA274;   
+    }
+
+
+@media (max-width: 768px) {
+    .unsplash{
+    margin-left:0;
+    margin-right:0;
+    
+    }
+}

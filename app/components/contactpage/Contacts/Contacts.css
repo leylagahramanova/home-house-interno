@@ -1,0 +1,128 @@
+.cont h2{
+    max-width: 683px;
+gap: 0px;
+opacity: 0px;
+font-family: DM Serif Display;
+font-size: 50px;
+font-weight: 400;
+line-height: 75px;
+letter-spacing: 0.01em;
+text-align: center;
+margin-left:auto;
+margin-right:auto;
+}
+
+.cont{
+    margin-top:10rem;
+    margin-left:8%;
+    margin-right:8%;
+}
+.contact-card{
+    width: 349px;
+height: 436.99px;
+gap: 10px;
+border-radius: 50px;
+background: #F4F0EC;
+padding:76px 32px 76px 32px;
+}
+.vertical {
+    font-family: Jost;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.01em;
+text-align: left;
+
+}
+.vertical li{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.vertical li a{
+    padding-left:1rem;
+    color:#4D5053;
+}
+.vertical ul{
+    width: 261px;
+height: 216px;
+display:flex;
+gap: 30px;
+
+flex-direction: column;
+
+}
+.horisontal ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 146.46px;
+gap: 35px;
+top:2rem;
+position:relative;
+left:1rem;
+}
+.horisontal li{
+    font-family: Font Awesome 5 Brands;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: #292F36;
+
+}
+.horisontal li:hover{
+color: #CDA274;
+
+}
+form{
+    max-width:797px;
+height:498px;
+width: 100%;
+gap: 58px;
+opacity: 0px;
+padding-left:1rem;
+padding-right:1rem;
+
+}
+.form-content{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.contact{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+input {
+  max-width: 378px;
+width:100%;
+height: 45px;
+
+
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: none;
+    border-bottom: 1px solid #4d5053;
+  }
+  textarea{
+    margin-top:3rem;
+    width: 100%;
+height: 175px;
+border: 1px 0px 0px 0px;
+background-color: #FFF;
+opacity: 0px;
+
+  }
+  .cont-button{
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+}

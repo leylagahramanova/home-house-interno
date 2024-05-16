@@ -1,0 +1,54 @@
+.counts{
+    margin-top:10rem;
+display:flex;
+    text-align:center;
+    margin-left:8%;
+    margin-right:8%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.counter{
+   display:flex;
+   flex-direction:column; 
+   padding:1rem;
+}
+.counter h4{
+    font-family: DM Serif Display;
+font-size: 85px;
+font-weight: 400;
+line-height: 106.25px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #CDA274;
+
+}
+.counter p{
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:#4D5053;
+}
+.counter{
+    font-family: Jost;
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.01em;
+text-align: left;
+color:#4D5053;
+}
+.vl{
+    border-left: 1px solid #CDA274;
+    height: 130px;
+}
+
+@media screen and (max-width: 850px) {
+   .vl{
+    display:none;
+   }
+  }

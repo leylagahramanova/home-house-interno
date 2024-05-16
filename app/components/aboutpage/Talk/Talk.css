@@ -1,0 +1,78 @@
+.talk{
+    margin-top:10rem;
+    margin-left:8%;
+    margin-right:8%;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+} 
+.talk h2{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    max-width: 634px;
+
+
+}
+form{
+    margin-top:5rem;
+    max-width:797px;
+height:498px;
+width: 100%;
+gap: 58px;
+padding-left:1rem;
+padding-right:1rem;
+
+
+
+}
+.content-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left:auto;
+    margin-right:auto;
+}
+.form-content{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.contact{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+input {
+  max-width: 378px;
+width:100%;
+height: 45px;
+
+
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: none;
+    border-bottom: 1px solid #4d5053;
+  }
+  textarea{
+    margin-top:3rem;
+    width: 100%;
+height: 230px;
+border: 1px 0px 0px 0px;
+background-color: #FFF;
+opacity: 0px;
+
+  }
+  .cont-button{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+#cont{
+    margin-top: 1rem;
+}

@@ -1,0 +1,7 @@
+.restricted{
+    background-image: url('../../../img/restricted.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 356px;
+}

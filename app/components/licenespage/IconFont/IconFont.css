@@ -1,0 +1,27 @@
+.iconfonts{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.iconfont p{
+    max-width: 495px;
+    
+}
+#dm{
+    font-family: DM Serif Display;
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 127.5px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    
+}
+#jost{
+    font-family: Jost;
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 127.5px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    
+}

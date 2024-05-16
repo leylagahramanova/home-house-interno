@@ -1,0 +1,7 @@
+.contactpage{
+    background-image: url('../../../img/contactpage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 356px;
+}

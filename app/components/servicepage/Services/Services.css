@@ -1,0 +1,11 @@
+.more{
+    padding-top:1.5rem;
+
+}
+.more  a{
+    color:#4D5053;
+    font-weight:bold; 
+}
+.more  a:hover{
+color:#CDA274;
+}

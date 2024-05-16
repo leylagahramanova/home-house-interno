@@ -1,0 +1,123 @@
+.cards{
+    margin-top:10rem;
+    background: #F4F0EC;
+padding-left:8%;
+padding-right:8%;
+padding-top:8%;
+padding-bottom:8%;
+}
+.cards h2{
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 547px;
+    text-align:center;
+}
+.flip-cards{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.flip-card {
+    background-color: transparent;
+    width: 283.55px;
+    height: 433px;
+    border-radius:10px;
+    perspective: 1000px;
+    margin:1rem;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 283.55px;
+    height: 433px;
+    border-radius:27px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 283.55px;
+    height: 433px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+ 
+  .flip-card-back {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius:27px;
+    background-color:  #FFFFFF;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-card-back h1 {
+    font-family: DM Serif Display;
+font-size: 25px;
+font-weight: 400;
+line-height: 37.5px;
+letter-spacing: 0.01em;
+text-align: center;
+
+  }
+  .flip-card-back p {
+    font-family: Jost;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.01em;
+text-align: center;
+
+  }
+
+  .horisontal ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 146.46px;
+gap: 35px;
+top:2rem;
+position:relative;
+}
+.horisontal li{
+    font-family: Font Awesome 5 Brands;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: #292F36;
+
+}
+@media (max-width: 900px) {
+    .flip-card{
+        padding:0rem;
+        margin:1rem;
+    }
+}
+@media (max-width: 900px) {
+    .cards{
+    margin-left:0;
+    margin-right:0;
+    
+    }
+    .flip-cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+.horisontal li:hover{
+  color: #CDA274;
+  
+  }

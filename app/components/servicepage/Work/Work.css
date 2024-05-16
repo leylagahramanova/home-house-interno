@@ -1,0 +1,68 @@
+.work-plans{
+    margin-top:10rem;
+    margin-left:8%;
+margin-right:8%;
+padding:3rem;
+background: #F4F0EC;
+border-radius:5rem;
+
+height: auto;
+}
+@media (max-width: 768px) {
+    .work-plans{
+    margin-left:0;
+    margin-right:0;
+    
+    }
+}
+.works-plan{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding:1rem 0rem 1rem 0rem;
+    justify-content:space-around;
+}
+.works-concept{
+    display:flex;
+flex-direction:column;
+}
+.works-concept h3{
+    font-family: DM Serif Display;
+font-size: 35px;
+font-weight: 400;
+line-height: 43.75px;
+text-align: center;
+
+}
+.works-sub{
+    display:flex;
+    padding:1rem 0rem 1rem 0rem;
+    justify-content:space-between;
+}
+.w-con{
+    margin-left:auto;
+    margin-right:auto;
+}
+.w-con h2{
+    margin-left:auto;
+    margin-right:auto;
+
+    text-align:center;
+}
+.w-con p{
+    margin-left:auto;
+    margin-right:auto;
+
+max-width:809px;
+text-align:center;
+}
+.works-plans2{
+    margin-top:4rem;
+}
+.works-concept{
+     max-width:456px;
+}
+.works-plans-img img{
+    max-width:453px;
+    width:100%;
+}

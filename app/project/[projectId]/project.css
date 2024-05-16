@@ -1,0 +1,115 @@
+.interior{
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:10rem;
+}
+.room-content{
+    max-width: 400px;
+padding: 55px 84px 55px 84px;
+gap: 10px;
+border-radius: 70px ;
+background: #F4F0EC;
+}
+.room-content p{
+    padding-top:1.5rem;
+}
+.room{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.detail-text{
+    max-width: 658px;
+
+}
+.detail-text h2{
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62.5px;
+    letter-spacing: 0.02em;
+    text-align: left;
+color:#292F36;    
+}
+.room img{
+border-radius: 70px ;
+
+
+}
+.image-container img{
+    width: 1201px;
+    max-height: 799px;
+}
+.image-container {
+    margin-top:10rem;
+    position: relative;
+
+    border-radius: 70px;
+    overflow: hidden;
+}
+
+.zoom-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.zoom-icon:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index:10;
+}
+.image-container img{
+    z-index:1;
+}
+
+
+.room-item .thumbnail {
+   overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .room  .thumbnail img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s linear;
+  }
+  
+  .room .thumbnail:hover img {
+    transform: scale(1.1);
+  }
+ 
+.room .popup-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.room .popup-image span {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.room .popup-image img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}

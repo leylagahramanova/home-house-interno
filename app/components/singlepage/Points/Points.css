@@ -1,0 +1,26 @@
+.points{
+    margin-left:8%;
+    margin-right:8%;
+    margi-top:10rem;
+    display:flex;
+    justify-content:space-between;
+   flex-wrap:wrap;
+}
+li span{
+    font-family: DM Serif Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: left;
+color:#CDA274;
+padding-right:0.5rem;
+}
+li {
+    font-family: DM Serif Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}

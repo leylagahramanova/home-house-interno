@@ -1,0 +1,25 @@
+.details{
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:10rem;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.details span{
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:#CDA274;   
+}
+.details h2{
+    width: 448px;
+}
+.details p{
+    max-width: 655px;
+    padding-bottom:2rem;
+}

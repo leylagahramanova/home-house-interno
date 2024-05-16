@@ -1,0 +1,102 @@
+.faq{
+    margin-top:10rem;
+
+}
+.category h3{
+    font-family: DM Serif Display;
+font-size: 50px;
+font-weight: 400;
+line-height: 75px;
+letter-spacing: 0.01em;
+text-align: center;
+
+}
+.faqs{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:4rem;
+}
+.question h4{
+ color: #292F36;
+ font-family: DM Serif Display;
+ font-size: 25px;
+ font-weight: 400;
+ line-height: 37.5px;
+ letter-spacing: 0.01em;
+ text-align: left;
+ 
+}
+.answer p{
+    font-family: Jost;
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.01em;
+text-align: left;
+max-width: 520px;
+
+padding:1rem  1rem 1rem 1rem;
+}
+.arrow {
+    position:relative;
+left:1rem;
+   top:1rem;
+    border: 2px solid #292F36;
+    border-width: 0 3px 3px 0;
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: all 250ms ease-in-out;
+}
+
+.activearrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transition: all 250ms ease-in-out;
+}
+.rectangle{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:nonwrap;
+  width:100%;
+}
+.frequenters-image{
+max-width:700px;
+ margin-left:1rem;
+margin-right:1rem;
+}
+
+.rectangle{
+    margin-top:0.5rem;
+    width:585px;
+  padding:1rem  1rem 1rem 1rem;
+gap: 32px;
+border-bottom:1px solid #CDA274;
+}@media (max-width: 768px) {
+    .rectangle{
+        margin-top:0.5rem;
+        width:100%;
+      padding:1rem  1rem 1rem 1rem;
+    gap: 32px;
+    border-bottom:1px solid #CDA274;
+    }
+    .arrow {
+        position:relative;
+    left:0rem;
+       top:1rem;
+        border: 2px solid #292F36;
+        border-width: 0 3px 3px 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: all 250ms ease-in-out;
+    }
+    
+}
